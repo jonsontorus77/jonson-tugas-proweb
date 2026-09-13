@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Individu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>AIESEC</h1>
+    <form action="#">
+    <table>
+        <tr>
+     <td><label for="username">username</label></td>
+     <td><input type="username" id="username" name="username" class="card" required></td>
+        </tr>
+        <tr>
+    <td><label for="password">password</label></td>
+    <td><input type="password" id="password" name="password" required class="card"></td>
+        </tr>
+    <tr>
+   <td><label for="NIM">NIM</label></td>
+    <td><input type="NIM" id="NIM" name="NIM" class="card"></td>
+    </tr>
+    </table>
+    <p> Jenis Kelamin:
+    <input type="radio" name="gender" value="laki-laki" required>laki-laki
+    <input type="radio" name="gender" value="perempuan" required>perempuan
+    </p>
+    
+    <p>Fakultas:
+    <select required>
+        <option value="Fasilkom-TI">Fasilkom-TI</option>
+        <option value="Hukum">Hukum</option>
+        <option value="FIB">FIB</option>
+        <option value="FEB">FEB</option>
+        <option value="FKG">FKG</option>
+        <option value="Fk">FK</option>
+        <option value="Farmasi">Farmasi</option>
+        <option value="Fisip">Fisip</option>
+        <option value="Vokasi">Vokasi</option>
+        <option value="FP">FP</option>
+        <option value="FT">FT</option>
+        <option value="FKM">FKM</option>
+        <option value="Fkep">Fkep</option>
+        <option value="Kehutanan">Kehutanan</option>
+        <option value="Psikologi">Psikologi</option>
+        <option value="FMIPA">FMIPA</option>
+    </select>
+    </p>
+    <br> 
+    <label>Alasan Masuk AIESEC :</label> <br>
+    <textarea name="alasan" id="alasan" cols="80" rows="10" required>Tuliskan Alasan Mendaftar</textarea>
+    <p>Tau AIESEC dari mana? <br>
+        <input type="checkbox" id="Tiktok" name="Sosmed" value="Tiktok">
+        <label for="Tiktok">Tiktok</label>
+        <br>
+        <input type="checkbox" id="Instagram" name="Sosmed" value="Instagram">
+        <label for="Instagram">Instagram</label>
+        <br>
+        <input type="checkbox" id="dari teman/kating" name="Sosmed" value="dari teman/kating">
+        <label for="dari teman/kating">dari teman/kating</label>
+        <br>
+        <input type="checkbox" name="Sosmed" id="lainnya" value="lainnya">
+        <label for="lainnya">lainnya</label>
+    </p>
+    <button type="submit" class="koy">Daftar</button>
+    <button type="reset" class="koy">reset</button>
+    </form>
+</body>
+</html>

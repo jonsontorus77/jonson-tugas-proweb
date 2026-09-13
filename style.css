@@ -1,0 +1,33 @@
+h1{
+    text-align: center; font-family: 'Times New Roman', Times, serif; color: darkturquoise;
+    display: block;
+    font-weight: bold;
+}
+.koy{
+    background-color: darkturquoise;
+    display: table-column;
+    gap: 4px;
+    padding: 10px;
+    margin: 4px;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(58, 63, 218);
+    margin: 0;
+    padding: 20px;
+
+}
+form{
+    margin: 35px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    font-size: 14;
+}
+.card{
+    border: 1opx;
+
+}
