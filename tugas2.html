@@ -8,28 +8,31 @@
 
 </head>
 <body>
+    <div class="pro">
     <h1>AIESEC</h1>
+    <p><b>Asosiasi Internasional Mahasiswa dalam Ilmu Ekonomi dan Perdagangan</b></p>
     <form action="#">
     <table>
         <tr>
-     <td><label for="username">username</label></td>
+     <td><label for="username">username <span style="color: red;">*</span></label></td>
      <td><input type="username" id="username" name="username" class="card" required></td>
         </tr>
         <tr>
-    <td><label for="password">password</label></td>
+    <td><label for="password">password <span style="color: red;">*</span></label></td>
     <td><input type="password" id="password" name="password" required class="card"></td>
         </tr>
     <tr>
-   <td><label for="NIM">NIM</label></td>
+   <td><label for="NIM">NIM <span style="color: red;">*</span></label></td>
     <td><input type="NIM" id="NIM" name="NIM" class="card"></td>
     </tr>
-    </table>
-    <p> Jenis Kelamin:
+    </table> <br>
+
+    <div>Jenis Kelamin: <span style="color: red;">*</span>
     <input type="radio" name="gender" value="laki-laki" required>laki-laki
     <input type="radio" name="gender" value="perempuan" required>perempuan
-    </p>
+    </div> <br>
     
-    <p>Fakultas:
+    <div>Fakultas: <span style="color: red;">*</span>
     <select required>
         <option value="Fasilkom-TI">Fasilkom-TI</option>
         <option value="Hukum">Hukum</option>
@@ -48,11 +51,11 @@
         <option value="Psikologi">Psikologi</option>
         <option value="FMIPA">FMIPA</option>
     </select>
-    </p>
+    </div>
     <br> 
     <label>Alasan Masuk AIESEC :</label> <br>
-    <textarea name="alasan" id="alasan" cols="80" rows="10" required>Tuliskan Alasan Mendaftar</textarea>
-    <p>Tau AIESEC dari mana? <br>
+    <textarea name="alasan" id="alasan" cols="65" rows="20" placeholder="Alasan masuk AIESEC"></textarea>
+    <div>Tau AIESEC dari mana? <span style="color: red;">*</span> <br>
         <input type="checkbox" id="Tiktok" name="Sosmed" value="Tiktok">
         <label for="Tiktok">Tiktok</label>
         <br>
@@ -64,9 +67,12 @@
         <br>
         <input type="checkbox" name="Sosmed" id="lainnya" value="lainnya">
         <label for="lainnya">lainnya</label>
-    </p>
-    <button type="submit" class="koy">Daftar</button>
-    <button type="reset" class="koy">reset</button>
+    </div> <br>
+    <div class="cuy">
+        <button type="submit" class="koy">Daftar</button>
+        <button type="reset" class="koy">reset</button>
+    </div>
     </form>
+    </div>
 </body>
 </html>
